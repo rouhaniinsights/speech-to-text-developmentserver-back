@@ -1,0 +1,21 @@
+Raw Word,Raw Phonemes,Corrected Phonemes,Match
+hello,HH AH0 L OW1,HH AH0 L OW1,Match
+hello,HH AH0 L OW1,HH AH0 L OW1,Match
+hello,HH AH0 L OW1,HH AH0 L OW1,Match
+this,DH IH1 S,DH IH1 S,Match
+is,IH1 Z,IH1 Z,Match
+mic,M IH1 K,AH0,Mismatch
+test,T EH1 S T,M AY1 K R AH0 F OW2 N,Mismatch
+hello,HH AH0 L OW1,T EH1 S T,Mismatch
+hello,HH AH0 L OW1,T EH1 S T IH0 NG,Mismatch
+mic,M IH1 K,T EH1 S T IH0 NG,Mismatch
+test,T EH1 S T,[Not found],Mismatch
+1,[Not found],[Not found],Match
+2,[Not found],[Not found],Match
+3,[Not found],[Not found],Match
+4,[Not found],[Not found],Match
+5,[Not found],HH AH0 L OW1,Mismatch
+hello,HH AH0 L OW1,K AE1 N,Mismatch
+hello,HH AH0 L OW1,Y UW1,Mismatch
+mic,M IH1 K,HH IY1 R,Mismatch
+test,T EH1 S T,M IY1,Mismatch

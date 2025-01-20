@@ -4,18 +4,16 @@ hello,HH AH0 L OW1,HH AH0 L OW1,Match
 hello,HH AH0 L OW1,HH AH0 L OW1,Match
 this,DH IH1 S,DH IH1 S,Match
 is,IH1 Z,IH1 Z,Match
-mic,M IH1 K,AH0,Mismatch
-test,T EH1 S T,M AY1 K R AH0 F OW2 N,Mismatch
-hello,HH AH0 L OW1,T EH1 S T,Mismatch
-hello,HH AH0 L OW1,T EH1 S T IH0 NG,Mismatch
-mic,M IH1 K,T EH1 S T IH0 NG,Mismatch
-test,T EH1 S T,[Not found],Mismatch
-1,[Not found],[Not found],Match
-2,[Not found],[Not found],Match
-3,[Not found],[Not found],Match
-4,[Not found],[Not found],Match
-5,[Not found],HH AH0 L OW1,Mismatch
-hello,HH AH0 L OW1,K AE1 N,Mismatch
-hello,HH AH0 L OW1,Y UW1,Mismatch
-mic,M IH1 K,HH IY1 R,Mismatch
-test,T EH1 S T,M IY1,Mismatch
+a,AH0,AH0,Match
+microphone,M AY1 K R AH0 F OW2 N,M AY1 K R AH0 F OW2 N,Match
+test,T EH1 S T,T EH1 S T,Match
+testing,T EH1 S T IH0 NG,T EH1 S T IH0 NG,Match
+one,W AH1 N,W AH1 N,Match
+two,T UW1,T UW1,Match
+three,TH R IY1,TH R IY1,Match
+four,F AO1 R,F AO1 R,Match
+five,F AY1 V,F AY1 V,Match
+hello,HH AH0 L OW1,HH AH0 L OW1,Match
+hello,HH AH0 L OW1,HH AH0 L OW1,Match
+mic,M IH1 K,M IH1 K,Match
+test,T EH1 S T,T EH1 S T,Match

@@ -8,7 +8,7 @@ import nltk
 from nltk.corpus import cmudict
 import string
 from gtts import gTTS
-import psycopg2
+# import psycopg2
 
 # Load environment variables
 load_dotenv()
@@ -29,8 +29,8 @@ nltk.download("cmudict")
 cmu_dict = cmudict.dict()
 
 # Database connection function
-def get_db_connection():
-    return psycopg2.connect(dsn=os.getenv("SUPABASE_DSN"))
+# def get_db_connection():
+#     return psycopg2.connect(dsn=os.getenv("SUPABASE_DSN"))
 
 # Utility functions
 def clean_word(word):
@@ -161,18 +161,18 @@ def generate_audio():
         print(f"Error during audio generation: {str(e)}")
         return jsonify({"error": f"Failed to generate audio: {str(e)}"}), 500
 
-@app.route('/test-connection', methods=['GET'])
-def test_connection():
-    try:
-        conn = get_db_connection()
-        cur = conn.cursor()
-        cur.execute("SELECT 1;")
-        cur.close()
-        conn.close()
-        return {"status": "Connection successful!"}, 200
-    except Exception as e:
-        print("Error connecting to the database:", str(e))
-        return {"error": str(e)}, 500
+# @app.route('/test-connection', methods=['GET'])
+# def test_connection():
+#     try:
+#         conn = get_db_connection()
+#         cur = conn.cursor()
+#         cur.execute("SELECT 1;")
+#         cur.close()
+#         conn.close()
+#         return {"status": "Connection successful!"}, 200
+#     except Exception as e:
+#         print("Error connecting to the database:", str(e))
+#         return {"error": str(e)}, 500
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))

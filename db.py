@@ -1,5 +1,5 @@
-import psycopg2
-from psycopg2 import OperationalError
+# import psycopg2
+# from psycopg2 import OperationalError
 
 connection_string = "postgresql://postgres:Soumyaspeechtotext@db.pxsbfrvoqnereymigedz.supabase.co:5432/postgres"
 
